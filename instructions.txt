@@ -1,0 +1,37 @@
+Instructions for Using the Mediscan AI Model
+Welcome to Mediscan AI! Follow these steps to download and run the AI-powered disease diagnosis model:
+
+Step 1: Download the Model
+1)Open the Mediscan AI homepage.
+2)Navigate to the "Working" section.
+3)Click the Download the model button to download the trained AI model.
+
+Step 2: Running the Model
+Once you’ve downloaded the model, follow these steps to run it:
+1)Ensure you have Python and the required libraries installed. Specifically, you'll need PyQt5 to run the application. You can install it by running:
+
+pip install pyqt5
+
+2)Extract the downloaded files into a folder on your system.
+3)Locate the file named 3.py in the extracted files. This file contains the PyQt5 application for Mediscan AI.
+4)Open your terminal (or command prompt), navigate to the folder where 3.py is located, and run the command:
+
+python 3.py
+
+Step 3: Running the Model from the Website
+If you'd like to trigger the PyQt5 model from the web interface:
+Make sure the Flask server is running in the background as per the instructions below.
+
+1)Go to the Mediscan AI homepage.
+
+2)Scroll to the "Try MediScan AI?" section and click the Run App button. This will send a request to run the model locally.
+
+3)Flask Server Setup:
+If you want to trigger the PyQt5 app from the HTML page, follow these steps to set up the Flask server:
+Install Flask:
+
+pip install flask
+
+Create a server.py file and add the content attached "server.py"
+Run the Flask server using:
+python server.py

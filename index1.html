@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Explore Page </title>
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+</head>
+<body>
+    <header>
+        <a href="index2.html" class="logo">Mediscan AI</a>
+    </header>
+<!-- partial:index.partial.html -->
+<div class="flex-container">
+    <div class="flex-slide home">
+        <div class="flex-title flex-title-home">Home</div>
+        <div class="flex-about"><p>Click here to navigate to the homepage section of the website</p><br><a href="index.html" id="btnh">Homepage</a></div>
+    </div>
+    <div class="flex-slide about">
+        <div class="flex-title">About</div>
+        <div class="flex-about"><p> Welcome to our Medical Image Recognition platform. We integrate cutting-edge AI to revolutionize diagnostics, ensuring early, accurate disease detection. Our AI models automate image analysis, aiding in diagnosing fractures, pneumonia, and tumors swiftly and accurately.</p></div>
+    </div>
+    <div class="flex-slide work">
+        <div class="flex-title">Working</div>
+        <div class="flex-about"><p>Our AI model uses deep learning to analyze medical images. It processes images through a trained neural network, identifying conditions such as fractures, pneumonia, quickly and accurately. This automated analysis helps healthcare professionals make informed decisions faster, improving diagnostic efficiency and patient care outcomes.</p><br>
+            <a href="3.py" id="btn">Download the model</a> <br> <br>
+            <a href="instructions.txt" download class="btn1">Instructions</a> <br>
+        </div>
+    </div>
+    <div class="flex-slide contact">
+        <div class="flex-title">Contact</div>
+                <div class="flex-about">
+                    <p>Use the contact form below to reach out to us</p>
+                    <form class="contact-form">
+                        <p>Email <input type="text" name="email"></p>
+                        <p>Comment <textarea type="text" name="comment" row="5"></textarea></p>
+                        <p><input id="submit" type="submit" name="email" value="Send Message"></p>
+                    </form>
+
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/jquery.waitforimages.min.js'></script><script  src="./script1.js"></script>
+</body>
+</html>
