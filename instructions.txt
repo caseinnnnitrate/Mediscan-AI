@@ -35,3 +35,5 @@ pip install flask
 Create a server.py file and add the content attached "server.py"
 Run the Flask server using:
 python server.py
+
+Dataset for training the model:https://www.kaggle.com/code/madz2000/pneumonia-detection-using-cnn-92-6-accuracy
